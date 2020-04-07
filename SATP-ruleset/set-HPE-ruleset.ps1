@@ -56,3 +56,5 @@ else {
  
  $progress++
  }
+ #  disconnect from vCenter
+Disconnect-VIServer -Server * -Force -confirm:$false
