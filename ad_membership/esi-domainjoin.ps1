@@ -6,10 +6,10 @@ Param (
   [Parameter(Mandatory=$false)][string] $vCenter,
   [Parameter(Mandatory=$true)][string] $vuser,
   [Parameter(Mandatory=$true)][string] $vpassw,
-	[Parameter(Mandatory=$false)][String[]] $Clusters,
-	[Parameter(Mandatory=$false)][string] $Domain,
-	[Parameter(Mandatory=$false)][string] $User,
-	[Parameter(Mandatory=$false)][string] $Password)
+  [Parameter(Mandatory=$false)][String[]] $Clusters,
+  [Parameter(Mandatory=$false)][string] $Domain,
+  [Parameter(Mandatory=$false)][string] $User,
+  [Parameter(Mandatory=$false)][string] $Password)
   
 ### Start of Script
 # Load VMware Cmdlet
